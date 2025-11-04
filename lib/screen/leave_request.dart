@@ -18,7 +18,10 @@ class _LeaveRequestState extends State<LeaveRequest> {
       appBar: AppBar(
         centerTitle: true,
         actions: [
-          Icon(Icons.notifications_active_rounded)
+          Padding(
+            padding: const EdgeInsets.only(right: 12.0),
+            child: Icon(Icons.notifications_active_rounded),
+          )
         ],
         automaticallyImplyLeading: false,
         title: Text('Leave Request'),

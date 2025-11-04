@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hospitalmanagment/screen/login.dart';
+import 'package:hospitalmanagment/screen/comman_screen.dart';
 import 'package:hospitalmanagment/view_model_controller/bottomNavigator.dart';
 import 'package:provider/provider.dart';
 
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Hospital Management',
-      home: LoginEmployees()
+      home: CommanScreen()
     );
   }
 }
